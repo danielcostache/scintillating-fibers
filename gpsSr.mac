@@ -1,0 +1,17 @@
+/run/numberOfThreads 16
+/run/initialize
+
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+
+/gps/particle ion
+/gps/ion 38 90 0 0
+
+/gps/pos/type Volume 
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 0. 12. cm
+/gps/pos/radius 0.8 cm
+/gps/pos/halfz 6. cm
+
+/gps/ang/type iso
+
+/run/beamOn 1000
